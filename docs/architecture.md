@@ -1,0 +1,13 @@
+# Architecture and decisions
+
+This alpha is a single package with modular boundaries rather than an empty multi-package monorepo. `models.ts` owns schemas; `detectors.ts` extracts observations; `scanner.ts` enforces filesystem/resource policies; `rules.ts` defines technical contracts; `legal.ts` owns research intake and sector composition; `reports.ts` creates plans and exports; `service.ts` bounds session state; `mcp.ts` and `cli.ts` are adapters.
+
+The TypeScript 6.0.3 parser is deliberately retained for its stable compiler API. TypeScript 7.0.2 was the registry's latest during implementation, but exposes an unstable replacement AST API. Node 24.19.0 is an LTS release according to the official Node release index. MCP server/client 2.3.1 are pinned, following the official SDK's split v2 packages. The official SDK README and installed public declarations were inspected during implementation; this release tests both protocol eras that the SDK supports. No handwritten MCP protocol replaces the SDK.
+
+`scan` canonicalizes the operator-approved roots, traverses bounded directories, opens regular files without following symlinks, verifies the actual Linux `/proc/self/fd` target, and reads only bounded bytes. Each file is parsed independently; project imports and build scripts never execute. Mutable project contents are not an atomic Git snapshot; the returned snapshot hash summarizes files actually read, not a commit or deployed state.
+
+The static scanner engine does not import network or process-execution APIs. The optional maintainer source-retrieval script uses HTTPS through system-configured curl and is never called by a scan. Static reports contain no source excerpts. Findings use trusted rule templates plus locations and hashes. The MCP host remains outside the trust boundary.
+
+No HTTP server, browser engine, remote authentication, plugin loader, signed update service or hosted database is implemented. Runtime dependencies are MCP server, Zod, the TypeScript parser and the SPDX expression parser. Vitest, the MCP client harness, AJV and Prettier are development dependencies. Review the lockfile and notices before redistribution.
+
+IP review is isolated in `ip-files.ts` (bounded reads), `ip.ts` (SPDX/provenance review) and `ip-web.ts` (explicit reference retrieval and local comparison). `spdx-expression-parse` 5.0.0 validates license-expression syntax; it is not a compatibility solver. Online reference retrieval never runs during core scanning. Both IP tools share the server's exclusive work gate with ordinary scans. Their reports are returned directly and are not added to the retained technical-scan cache.

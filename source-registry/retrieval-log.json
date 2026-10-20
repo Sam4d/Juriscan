@@ -1,0 +1,1012 @@
+{
+  "notice": "HTTP success and response hashes do not verify legal text, current law or legal review. No source text is redistributed. Retrieval metadata is separate from legal source review status.",
+  "results": [
+    {
+      "url": "https://ag.ny.gov/resources/organizations/data-breach-reporting/shield-act",
+      "checked_at": "2026-10-20T08:13:12.333Z",
+      "http_status": 200,
+      "final_url": "https://ag.ny.gov/resources/organizations/data-breach-reporting/shield-act",
+      "bytes": 52030,
+      "sha256": "5ba9fe0733d7c5cefa213b80b94b047bdccf19016b714953215df749e239965f",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.373",
+      "checked_at": "2026-10-20T08:13:11.797Z",
+      "http_status": 200,
+      "final_url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.373",
+      "bytes": 115403,
+      "sha256": "6ae27e4af4ab5b5c61e1fd5680da35c01c4dea42686d14a7bcaaad2e6236ac9d",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://bdlaws.minlaw.gov.bd/",
+      "checked_at": "2026-10-20T08:13:27.507Z",
+      "http_status": 200,
+      "final_url": "https://bdlaws.minlaw.gov.bd/",
+      "bytes": 37398,
+      "sha256": "9fb6039159203adaaf2ec98b7f53fc230c72340ccd8b2b7f5f1f2429fa20f6ba",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://consumeraffairs.nic.in/",
+      "checked_at": "2026-10-20T08:13:13.356Z",
+      "http_status": 503,
+      "final_url": "https://consumeraffairs.nic.in/",
+      "bytes": 91,
+      "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://cppa.ca.gov/regulations/",
+      "checked_at": "2026-10-20T08:13:11.349Z",
+      "http_status": 200,
+      "final_url": "https://cppa.ca.gov/regulations/",
+      "bytes": 25969,
+      "sha256": "a58046b0cfe9ca7803c6a163b360634066cc33b47386386eb360dbf7a250e6c8",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://crtc.gc.ca/eng/internet/anti.htm",
+      "checked_at": "2026-10-20T08:13:14.390Z",
+      "http_status": 200,
+      "final_url": "https://crtc.gc.ca/eng/internet/anti.htm",
+      "bytes": 18333,
+      "sha256": "e1ae077944f981c977c67129d22e53ceb91bac50bcdee65ac4f8ee9b57820aae",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://dataprotection.govmu.org/",
+      "checked_at": "2026-10-20T08:13:38.246Z",
+      "http_status": 200,
+      "final_url": "https://dataprotection.govmu.org/SitePages/Index.aspx",
+      "bytes": 99629,
+      "sha256": "32e847da15d384aeec8b598e2613b5dcf2df60dbf1f61225f74d12d5b5ddf933",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://dataprotection.org.gh/",
+      "checked_at": "2026-10-20T08:13:33.844Z",
+      "http_status": null,
+      "error": "proxy_denied",
+      "verification": "not_retrieved"
+    },
+    {
+      "url": "https://dpo.gov.rw/",
+      "checked_at": "2026-10-20T08:13:37.184Z",
+      "http_status": 200,
+      "final_url": "https://dpo.gov.rw/",
+      "bytes": 157207,
+      "sha256": "72b5f3583073186154346b6def31fab9319f0b95c9beb38ff20f3dca313e9d3a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/1996/9/oj",
+      "checked_at": "2026-10-20T14:13:30.614Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/1996/9/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+      "checked_at": "2026-10-20T08:13:02.651Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "checked_at": "2026-10-20T08:13:03.839Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj",
+      "checked_at": "2026-10-20T14:13:30.616Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "checked_at": "2026-10-20T08:13:03.799Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2016/943/oj",
+      "checked_at": "2026-10-20T14:13:30.617Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2016/943/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/2161/oj",
+      "checked_at": "2026-10-20T08:13:04.143Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2019/2161/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+      "checked_at": "2026-10-20T08:13:04.179Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj",
+      "checked_at": "2026-10-20T14:13:30.620Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+      "checked_at": "2026-10-20T08:13:02.657Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "checked_at": "2026-10-20T08:13:02.659Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "checked_at": "2026-10-20T08:13:02.649Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2019/1150/oj",
+      "checked_at": "2026-10-20T08:13:04.870Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2019/1150/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj",
+      "checked_at": "2026-10-20T08:13:04.871Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "checked_at": "2026-10-20T08:13:02.653Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "checked_at": "2026-10-20T08:13:03.772Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "checked_at": "2026-10-20T08:13:02.656Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
+      "checked_at": "2026-10-20T08:13:03.794Z",
+      "http_status": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+      "checked_at": "2026-10-20T08:13:06.256Z",
+      "http_status": 200,
+      "final_url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+      "bytes": 51368,
+      "sha256": "4ab007597854cf2c8334044040bd018b0e77fd75e2210fc9f4600f61bdabaf35",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://inforegulator.org.za/",
+      "checked_at": "2026-10-20T08:13:32.942Z",
+      "http_status": 200,
+      "final_url": "https://inforegulator.org.za/",
+      "bytes": 234725,
+      "sha256": "2aa949c0408c825cdb799971a99e86ff2316841ce2a4259c8086086677180972",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://ipindia.gov.in/",
+      "checked_at": "2026-10-20T14:18:22.014Z",
+      "http_status": null,
+      "error": "proxy_denied",
+      "verification": "not_retrieved"
+    },
+    {
+      "url": "https://law.moj.gov.tw/ENG/",
+      "checked_at": "2026-10-20T08:13:25.609Z",
+      "http_status": 200,
+      "final_url": "https://law.moj.gov.tw/ENG/",
+      "bytes": 28449,
+      "sha256": "7f505adbc3189a117f155aede714dfa3647640106a6842d4e60cf9cef1cc08b1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/",
+      "checked_at": "2026-10-20T08:13:13.876Z",
+      "http_status": 200,
+      "final_url": "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/",
+      "bytes": 24616,
+      "sha256": "8d025a19280f8f4130b47175cef4f2191393f54ab03d09c3b326bafbaa2b7975",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=17602.&lawCode=BPC",
+      "checked_at": "2026-10-20T08:13:11.704Z",
+      "http_status": 403,
+      "final_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=17602.&lawCode=BPC",
+      "bytes": 6347,
+      "sha256": "ed603aa6de33ac157071f74fb653ce29be6523f66c5713fe4f7ae5114146d1aa",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://mcit.gov.eg/",
+      "checked_at": "2026-10-20T08:13:35.608Z",
+      "http_status": 200,
+      "final_url": "https://mcit.gov.eg/",
+      "bytes": 62959,
+      "sha256": "718bd297cec6544f94d9dc25a4d047da63ac4f885194992002645c05370d0817",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://moitt.gov.pk/",
+      "checked_at": "2026-10-20T08:13:27.386Z",
+      "http_status": 503,
+      "final_url": "https://moitt.gov.pk/",
+      "bytes": 91,
+      "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://ndpc.gov.ng/",
+      "checked_at": "2026-10-20T08:13:32.977Z",
+      "http_status": 200,
+      "final_url": "https://ndpc.gov.ng/",
+      "bytes": 762200,
+      "sha256": "ccd94142ab1d35768c8ca3e84d02294a04d0f0bd6d3880397bd2eacfe4bb653b",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://peraturan.bpk.go.id/",
+      "checked_at": "2026-10-20T08:13:24.082Z",
+      "http_status": 200,
+      "final_url": "https://peraturan.bpk.go.id/",
+      "bytes": 125413,
+      "sha256": "75f54dbd934e17db4fe9971e6df7a53128809aa8770590828d8feded8090e86b",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://privacy.gov.ph/data-privacy-act/",
+      "checked_at": "2026-10-20T08:13:24.739Z",
+      "http_status": 200,
+      "final_url": "https://privacy.gov.ph/data-privacy-act/",
+      "bytes": 279447,
+      "sha256": "6d6c0beb32873cb254704ec2b75b9630a95e903baa1bde9af18e186a659b8692",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://sdaia.gov.sa/",
+      "checked_at": "2026-10-20T08:13:29.648Z",
+      "http_status": 503,
+      "final_url": "https://sdaia.gov.sa/",
+      "bytes": 95,
+      "sha256": "9deff96f9b5925fa5081257849ace321304b382d64cfb67d90a21a3c7cbf2925",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://spdx.org/licenses/",
+      "checked_at": "2026-10-20T14:13:30.623Z",
+      "http_status": 200,
+      "final_url": "https://spdx.org/licenses/",
+      "bytes": 277994,
+      "sha256": "38f2f8605235267d67aa58f34d58aac41d250d2ccdea71561352821f43d4fd75",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://sso.agc.gov.sg/Act/PDPA2012",
+      "checked_at": "2026-10-20T08:13:22.132Z",
+      "http_status": 200,
+      "final_url": "https://sso.agc.gov.sg/Act/PDPA2012",
+      "bytes": 268508,
+      "sha256": "e876c07c24ee4431089769e5d105334eb405aebc317e47267cc5872f74c899b5",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://studentprivacy.ed.gov/ferpa",
+      "checked_at": "2026-10-20T08:13:10.158Z",
+      "http_status": 200,
+      "final_url": "https://studentprivacy.ed.gov/ferpa",
+      "bytes": 133034,
+      "sha256": "f08e3c567e96130ced21ec7b9c9c34a46c1ea898a301d12fce6339efe5537eab",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://uaelegislation.gov.ae/",
+      "checked_at": "2026-10-20T08:13:29.786Z",
+      "http_status": 200,
+      "final_url": "https://uaelegislation.gov.ae/",
+      "bytes": 713959,
+      "sha256": "e35dad7d964f822948562fcc9097e84b07b0942ef2da3be09034c59548a17db7",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter103&edition=prelim",
+      "checked_at": "2026-10-20T08:23:33.424Z",
+      "http_status": 200,
+      "final_url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter103&edition=prelim",
+      "bytes": 5792,
+      "sha256": "bd35cf93375a24c953eb73c37bd621a2ac1c5d29ebd366d10a7964e97e4b494a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter22&edition=prelim",
+      "checked_at": "2026-10-20T14:13:30.632Z",
+      "http_status": 200,
+      "final_url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter22&edition=prelim",
+      "bytes": 5792,
+      "sha256": "bd35cf93375a24c953eb73c37bd621a2ac1c5d29ebd366d10a7964e97e4b494a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title35&edition=prelim",
+      "checked_at": "2026-10-20T14:13:31.768Z",
+      "http_status": 200,
+      "final_url": "https://uscode.house.gov/view.xhtml?path=/prelim@title35&edition=prelim",
+      "bytes": 5792,
+      "sha256": "bd35cf93375a24c953eb73c37bd621a2ac1c5d29ebd366d10a7964e97e4b494a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2710&num=0&edition=prelim",
+      "checked_at": "2026-10-20T08:13:11.309Z",
+      "http_status": 200,
+      "final_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2710&num=0&edition=prelim",
+      "bytes": 5792,
+      "sha256": "bd35cf93375a24c953eb73c37bd621a2ac1c5d29ebd366d10a7964e97e4b494a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://vbpl.vn/",
+      "checked_at": "2026-10-20T08:13:25.240Z",
+      "http_status": 403,
+      "final_url": "https://vbpl.vn/",
+      "bytes": 1613,
+      "sha256": "fa198e3e6fcd36061e9ab6016b0f8904989d3a476d8bb41753c52cec5381c29c",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.acma.gov.au/avoid-sending-spam",
+      "checked_at": "2026-10-20T08:13:20.713Z",
+      "http_status": 503,
+      "final_url": "https://www.acma.gov.au/avoid-sending-spam",
+      "bytes": 85,
+      "sha256": "e482a48fef03d183029fa2edf995fc8e9ce023f18649fd1d9149958e977068a1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ada.gov/law-and-regs/",
+      "checked_at": "2026-10-20T08:13:10.645Z",
+      "http_status": 200,
+      "final_url": "https://www.ada.gov/law-and-regs/",
+      "bytes": 53287,
+      "sha256": "6756b4c3885310ce47922f02e03fccd79f06fdae1b1b459964420cc9912bfb96",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.adgm.com/operating-in-adgm/office-of-data-protection",
+      "checked_at": "2026-10-20T08:13:31.090Z",
+      "http_status": 403,
+      "final_url": "https://www.adgm.com/operating-in-adgm/office-of-data-protection",
+      "bytes": 6140,
+      "sha256": "e4ff9bdfa6dead2b50aa22870b07b016e9c86651ae6fb9f354b6560e3364d20f",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services",
+      "checked_at": "2026-10-20T08:13:43.369Z",
+      "http_status": 200,
+      "final_url": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services",
+      "bytes": 454460,
+      "sha256": "1e44e47ad359ea47e16d25d0f68465d5d0e2bdfbe488303e5ca4accf55f6df4f",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.almeezan.qa/",
+      "checked_at": "2026-10-20T08:13:31.115Z",
+      "http_status": 500,
+      "final_url": "https://www.almeezan.qa/",
+      "bytes": 38647,
+      "sha256": "6a6659332269f7cb0e8944d1a2e8860cda623a905b8dddf5da2af6aff6c39dfd",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/aaip",
+      "checked_at": "2026-10-20T08:13:17.575Z",
+      "http_status": 200,
+      "final_url": "https://www.argentina.gob.ar/aaip",
+      "bytes": 45956,
+      "sha256": "a732bc73189397b1b95394bd53bec3e180bdede2b51abf906b5d47acd4c702b5",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.bcn.cl/leychile/",
+      "checked_at": "2026-10-20T08:13:18.338Z",
+      "http_status": 401,
+      "final_url": "https://www.bcn.cl/leychile/",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.cac.gov.cn/",
+      "checked_at": "2026-10-20T08:13:23.937Z",
+      "http_status": 200,
+      "final_url": "https://www.cac.gov.cn/",
+      "bytes": 71584,
+      "sha256": "4d911be7a393f8a7b06aa2f4d36fff2578a79aeef528993e28ba64d83305df8d",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.cdp.sn/",
+      "checked_at": "2026-10-20T08:13:41.309Z",
+      "http_status": 200,
+      "final_url": "https://www.cdp.sn/",
+      "bytes": 457,
+      "sha256": "d5b9e87c874ff288bd06b6ef569928d8d763df87ebe63d8d06a86bd015d4bf58",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.cert-in.org.in/",
+      "checked_at": "2026-10-20T08:13:12.989Z",
+      "http_status": 200,
+      "final_url": "https://www.cert-in.org.in/",
+      "bytes": 447,
+      "sha256": "056383dd1ceba2678b8cd66facd351e4c6d74229eedf0bdebcba4c459b54272f",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.cndp.ma/",
+      "checked_at": "2026-10-20T08:13:36.580Z",
+      "http_status": 200,
+      "final_url": "https://www.cndp.ma/",
+      "bytes": 567392,
+      "sha256": "e0e3b4ee884cffbf1f0b76a0c8806890485e9659347fa89d4afffce407bbef34",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.copyright.gov/title17/",
+      "checked_at": "2026-10-20T08:13:11.195Z",
+      "http_status": 200,
+      "final_url": "https://www.copyright.gov/title17/",
+      "bytes": 35412,
+      "sha256": "0c5bd915d27d2ce14ec426dc00bc070f183af9f834a6158de35461ef42ff4183",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.difc.com/business/operating/data-protection",
+      "checked_at": "2026-10-20T08:13:29.978Z",
+      "http_status": 200,
+      "final_url": "https://www.difc.com/business/registrars-and-commissioners/commissioner-of-data-protection",
+      "bytes": 217748,
+      "sha256": "4ea1994f9223bad84f38cc9bbbd2c0d6f2a4fa968aaa4909a7a4a1b9d4948d55",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/",
+      "checked_at": "2026-10-20T08:13:16.418Z",
+      "http_status": 403,
+      "final_url": "https://www.diputados.gob.mx/LeyesBiblio/",
+      "bytes": 214,
+      "sha256": "469c4d550da1ebfc202652c3e508aca845620a964b65599ec935ba74b6a35c73",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.dpa.gov.lk/",
+      "checked_at": "2026-10-20T08:13:28.500Z",
+      "http_status": 200,
+      "final_url": "https://www.dpa.gov.lk/",
+      "bytes": 39590,
+      "sha256": "4a7b95465f2759e881219599da67107863fc504395407a2d982b2b895f2ef317",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-312",
+      "checked_at": "2026-10-20T08:13:06.930Z",
+      "http_status": 200,
+      "final_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-312",
+      "bytes": 169277,
+      "sha256": "738526dc3816c496560429129e73c2614c0258a305e7d7c776b2df28db68addc",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314",
+      "checked_at": "2026-10-20T08:13:09.137Z",
+      "http_status": 200,
+      "final_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314",
+      "bytes": 152927,
+      "sha256": "40e5cbd13e91766393ddf54ec503e77de7e45e0d6fc1119bad07b8ada7f2975a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-318",
+      "checked_at": "2026-10-20T08:13:08.568Z",
+      "http_status": 200,
+      "final_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-318",
+      "bytes": 117722,
+      "sha256": "fdc8eabaa078c053f784c03da2e4c856daebd9b422d5a98f0721cb95424ade36",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C",
+      "checked_at": "2026-10-20T08:13:08.059Z",
+      "http_status": 200,
+      "final_url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C",
+      "bytes": 105211,
+      "sha256": "0185721e2e0532315e033dc064af98a82d27c115f96cea798bebf2c4939e027d",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.esafety.gov.au/",
+      "checked_at": "2026-10-20T08:13:20.554Z",
+      "http_status": 503,
+      "final_url": "https://www.esafety.gov.au/",
+      "bytes": 85,
+      "sha256": "e482a48fef03d183029fa2edf995fc8e9ce023f18649fd1d9149958e977068a1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.fcc.gov/consumers/guides/childrens-internet-protection-act",
+      "checked_at": "2026-10-20T08:13:11.246Z",
+      "http_status": 403,
+      "final_url": "https://www.fcc.gov/consumers/guides/childrens-internet-protection-act",
+      "bytes": 435,
+      "sha256": "2bcda20f8d6e430856f6d175eccab0855ebf36650a394a2425dfb4aff5b57f60",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.fcc.gov/general/telemarketing-and-robocalls",
+      "checked_at": "2026-10-20T08:13:07.422Z",
+      "http_status": 403,
+      "final_url": "https://www.fcc.gov/general/telemarketing-and-robocalls",
+      "bytes": 412,
+      "sha256": "fc885aad207208e9a9981756d7ff3324f72f0acfca73b7005bb3a10af3aab8ac",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/rules/negative-option-rule",
+      "checked_at": "2026-10-20T08:13:07.634Z",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/legal-library/browse/rules/negative-option-rule",
+      "bytes": 998475,
+      "sha256": "9b12d057f535a2058f79cc06d6587fa218d51554e89c92996f85d9437236f840",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
+      "checked_at": "2026-10-20T08:13:09.654Z",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
+      "bytes": 987416,
+      "sha256": "1d91174f7994820a490d5ab26b30802837e68572086912733419046623281ce9",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/statutes/federal-trade-commission-act",
+      "checked_at": "2026-10-20T08:13:06.679Z",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/legal-library/browse/statutes/federal-trade-commission-act",
+      "bytes": 994048,
+      "sha256": "0a594dcc98f78011c1291e4adc54176d7302c35f43be86aeedce1a55e117b9a1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+      "checked_at": "2026-10-20T08:13:07.485Z",
+      "http_status": 200,
+      "final_url": "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+      "bytes": 986917,
+      "sha256": "a35495cf3e40bdf69becd21cc816ac3dae876a016edf8d3d4375d9f165fa3ccc",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.gob.pe/anpd",
+      "checked_at": "2026-10-20T08:13:18.024Z",
+      "http_status": 200,
+      "final_url": "https://www.gob.pe/anpd",
+      "bytes": 242777,
+      "sha256": "2b0dea7c449a537370fc94cee29988f7ec30102219c435dbe77bdd13f3e47e7b",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.gov.il/en/departments/the_privacy_protection_authority",
+      "checked_at": "2026-10-20T08:13:32.410Z",
+      "http_status": 403,
+      "final_url": "https://www.gov.il/en/departments/the_privacy_protection_authority",
+      "bytes": 6171,
+      "sha256": "e947cd6df71208b6962bb82b55df63a14a689e008e8c2c5558d7eee788f73af1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.gub.uy/unidad-reguladora-control-datos-personales/",
+      "checked_at": "2026-10-20T08:13:18.719Z",
+      "http_status": 200,
+      "final_url": "https://www.gub.uy/unidad-reguladora-control-datos-personales/",
+      "bytes": 57624,
+      "sha256": "3bc3fd658c7ad184fd94dc76f6a2b357bd6d24d0bcc8291c1b4535d0ec33039c",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004&ChapterID=57",
+      "checked_at": "2026-10-20T08:13:12.175Z",
+      "http_status": 503,
+      "final_url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004&ChapterID=57",
+      "bytes": 216,
+      "sha256": "b5b660bc2bb92e97199b4b045f7e21eca39307fa087b8be85bb006cc7d83b34b",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/",
+      "checked_at": "2026-10-20T08:13:12.486Z",
+      "http_status": 200,
+      "final_url": "https://www.indiacode.nic.in/",
+      "bytes": 2009,
+      "sha256": "3b64e50fd9a02485b2f452c4090c7ef025bf565e4340256a83cb387b7103318c",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.iso.org/standard/27001",
+      "checked_at": "2026-10-20T08:13:43.054Z",
+      "http_status": 200,
+      "final_url": "https://www.iso.org/standard/27001",
+      "bytes": 145654,
+      "sha256": "60f5cfa5e8ff0e1d6fb3a59c41bc3a4dacd0cfcbd23d03edb01ed3808a16651c",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.kvkk.gov.tr/",
+      "checked_at": "2026-10-20T08:13:32.768Z",
+      "http_status": 200,
+      "final_url": "https://www.kvkk.gov.tr/",
+      "bytes": 118459,
+      "sha256": "beffa97f620c0703712011567ad74266edac8d1743651c314efb2c4e9af5b366",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/contents",
+      "checked_at": "2026-10-20T08:13:05.260Z",
+      "http_status": 200,
+      "final_url": "https://www.legislation.gov.uk/ukpga/2010/15/contents",
+      "bytes": 308720,
+      "sha256": "c737235708a5525c4a73f09689bbde6249282856023dc719341d58587b650290",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2018/12/contents",
+      "checked_at": "2026-10-20T08:13:04.901Z",
+      "http_status": 200,
+      "final_url": "https://www.legislation.gov.uk/ukpga/2018/12/contents",
+      "bytes": 550856,
+      "sha256": "14dae6c587ab4ab12897ee57d0d38ae433fb5738cd2b8ed56bcfe346820a2433",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2022/46/contents",
+      "checked_at": "2026-10-20T08:13:05.960Z",
+      "http_status": 200,
+      "final_url": "https://www.legislation.gov.uk/ukpga/2022/46/contents",
+      "bytes": 55648,
+      "sha256": "9fcbbbcc7525a1ca6e70b289be9e5f8eb879d66d6ed46ca2b9f95eb124e39c21",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2023/50/contents",
+      "checked_at": "2026-10-20T08:13:05.188Z",
+      "http_status": 200,
+      "final_url": "https://www.legislation.gov.uk/ukpga/2023/50/contents",
+      "bytes": 235734,
+      "sha256": "27b2023ab7d7c63f415a35c3c93a9d82f15ad48966f682c17d64828e665e763d",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+      "checked_at": "2026-10-20T08:13:05.234Z",
+      "http_status": 200,
+      "final_url": "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+      "bytes": 290915,
+      "sha256": "a32fd1c4710aa6ac66c0e10b95b7e617b422d5f68aa541b5ab93b06ffb5a615b",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/2003/2426/contents",
+      "checked_at": "2026-10-20T08:13:04.908Z",
+      "http_status": 200,
+      "final_url": "https://www.legislation.gov.uk/uksi/2003/2426/contents",
+      "bytes": 56039,
+      "sha256": "3d17e702c2184d2c922b2ae7988a75dfedb18f15f06d5cd5691d28cd5182d67a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1",
+      "checked_at": "2026-10-20T08:13:14.892Z",
+      "http_status": 502,
+      "final_url": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1",
+      "bytes": 932,
+      "sha256": "0de94edf7427e91228fe315f6c05b2ac30a70b746074511d8c1dbe4b30538930",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.meity.gov.in/",
+      "checked_at": "2026-10-20T08:13:12.397Z",
+      "http_status": 200,
+      "final_url": "https://www.meity.gov.in/",
+      "bytes": 3292,
+      "sha256": "d61a7dddcc2db7c4c6f0b374d3e26997c4457fc3e8be9f9d5c7549d06b460e04",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.mtcit.gov.om/",
+      "checked_at": "2026-10-20T08:13:32.126Z",
+      "http_status": null,
+      "error": "unavailable_or_network_restricted",
+      "verification": "not_retrieved"
+    },
+    {
+      "url": "https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act",
+      "checked_at": "2026-10-20T08:13:19.565Z",
+      "http_status": 200,
+      "final_url": "https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act",
+      "bytes": 65948,
+      "sha256": "dd7b7df79ef3a0361d48550e9fc0d8007f8d3a74d76b9168e5f492c26a9fe293",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.odpc.go.ke/",
+      "checked_at": "2026-10-20T08:13:33.027Z",
+      "http_status": 200,
+      "final_url": "https://www.odpc.go.ke/",
+      "bytes": 130743,
+      "sha256": "df392d336eca9a15774827244e53406b3659f311c3c9bea59ce9bebeb99e94d0",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pcisecuritystandards.org/standards/",
+      "checked_at": "2026-10-20T08:13:41.691Z",
+      "http_status": 200,
+      "final_url": "https://www.pcisecuritystandards.org/standards/",
+      "bytes": 846542,
+      "sha256": "10a3747e8acb3f4eb924ca8af9570d14e7d0327b42e0f2331464d3269167c767",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pcpd.org.hk/",
+      "checked_at": "2026-10-20T08:13:27.082Z",
+      "http_status": 200,
+      "final_url": "https://www.pcpd.org.hk/",
+      "bytes": 989,
+      "sha256": "ce4393823e30f9564d11a00ac198acde7eda6a45febe36d51ea9ec5c4de00028",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pdp.gov.bh/",
+      "checked_at": "2026-10-20T08:13:31.294Z",
+      "http_status": 403,
+      "final_url": "https://www.pdp.gov.bh/",
+      "bytes": 919,
+      "sha256": "3009c20fc88c957ce59c36979ace3d2d8a53305d978f434855bf68bea3c0be6a",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pdp.gov.my/",
+      "checked_at": "2026-10-20T08:13:24.809Z",
+      "http_status": 200,
+      "final_url": "https://www.pdp.gov.my/ppdpv1/",
+      "bytes": 170143,
+      "sha256": "3466d257293419c24280326ccfb10cc8cb6c9b1919801854c36526c646a737d5",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pdpc.go.tz/",
+      "checked_at": "2026-10-20T08:13:38.144Z",
+      "http_status": 200,
+      "final_url": "https://pdpc.go.tz/",
+      "bytes": 193307,
+      "sha256": "f6a56b0d31b8158fc80b215a8bb2c3450518592ec42bb005fcbe89bf30526232",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pdpc.or.th/",
+      "checked_at": "2026-10-20T08:13:23.942Z",
+      "http_status": 403,
+      "final_url": "https://www.pdpc.or.th/",
+      "bytes": 5991,
+      "sha256": "b03fbc78e1b3b08706a89bcbafcd302ba785c7b57d2d35168bf771e6ba34b6b1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pdpo.go.ug/",
+      "checked_at": "2026-10-20T08:13:37.011Z",
+      "http_status": 200,
+      "final_url": "https://pdpo.go.ug/",
+      "bytes": 541,
+      "sha256": "2b956db6ae563439a1091d6c138944e19ff1d66fb07e910deb6c3b5320312d9d",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.pipc.go.kr/eng/",
+      "checked_at": "2026-10-20T08:13:22.185Z",
+      "http_status": 400,
+      "final_url": "https://www.pipc.go.kr/eng/",
+      "bytes": 147,
+      "sha256": "4d8df5afb6d71d8089164376d7554085a56303a17160aa8f576c4449e2ab7a37",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+      "checked_at": "2026-10-20T08:13:15.376Z",
+      "http_status": null,
+      "error": "unavailable_or_network_restricted",
+      "verification": "not_retrieved"
+    },
+    {
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "checked_at": "2026-10-20T08:13:15.070Z",
+      "http_status": null,
+      "error": "unavailable_or_network_restricted",
+      "verification": "not_retrieved"
+    },
+    {
+      "url": "https://www.ppc.go.jp/en/legal/",
+      "checked_at": "2026-10-20T08:13:22.147Z",
+      "http_status": 200,
+      "final_url": "https://www.ppc.go.jp/en/legal/",
+      "bytes": 15269,
+      "sha256": "0dd96efd5d557265fa53266e769b79a231d7c4db184d24b71f19ca2e6a5719e1",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.privacy.org.nz/privacy-principles/",
+      "checked_at": "2026-10-20T08:13:21.241Z",
+      "http_status": 200,
+      "final_url": "https://www.privacy.org.nz/privacy-principles/",
+      "bytes": 42460,
+      "sha256": "847ddcba5e4a0a1534070c5083a79eb71e019aba4b9acbb0649949a79484a2ca",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.rbi.org.in/",
+      "checked_at": "2026-10-20T08:13:13.381Z",
+      "http_status": 200,
+      "final_url": "https://www.rbi.org.in/",
+      "bytes": 149433,
+      "sha256": "8eed477e8d8b49acc8483b20e63855622fc361b86fbeb68bd8ea1aa0069944e5",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.registroficial.gob.ec/",
+      "checked_at": "2026-10-20T08:13:18.369Z",
+      "http_status": 200,
+      "final_url": "https://www.registroficial.gob.ec/",
+      "bytes": 186643,
+      "sha256": "1a1f28299c75451f34daccb0af0db05ff22bfd96e330b05135110d81d5334ef2",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.sic.gov.co/",
+      "checked_at": "2026-10-20T08:13:17.752Z",
+      "http_status": 503,
+      "final_url": "https://www.sic.gov.co/",
+      "bytes": 216,
+      "sha256": "b5b660bc2bb92e97199b4b045f7e21eca39307fa087b8be85bb006cc7d83b34b",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "checked_at": "2026-10-20T08:13:41.467Z",
+      "http_status": 200,
+      "final_url": "https://www.w3.org/TR/WCAG22/",
+      "bytes": 512457,
+      "sha256": "6e3c5fe397257cae509a2fb4752b73062cf8cbeb92c2cec618989b17e4cf7057",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.wipo.int/madrid/en/",
+      "checked_at": "2026-10-20T14:13:31.794Z",
+      "http_status": 200,
+      "final_url": "https://www.wipo.int/en/web/madrid-system/",
+      "bytes": 192951,
+      "sha256": "6c62ee0f5405e6a801f70fbd0bf2550f885d7d4620e1a749e4e48a6bacefad8e",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.wipo.int/pct/en/",
+      "checked_at": "2026-10-20T14:13:31.810Z",
+      "http_status": 200,
+      "final_url": "https://www.wipo.int/en/web/pct-system/",
+      "bytes": 159272,
+      "sha256": "35232cdbc821c98a42541141a3bffdddfcec5d7a9d27171ab77c1307ae05d93f",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.wipo.int/treaties/en/ip/berne/",
+      "checked_at": "2026-10-20T14:13:32.046Z",
+      "http_status": 200,
+      "final_url": "https://www.wipo.int/en/web/treaties/ip/berne/index",
+      "bytes": 93947,
+      "sha256": "c7be1e5066a34d9cc94b2e6cbf96b647b074f46b1a962d8f9a543710e6fa34f5",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.wipo.int/treaties/en/ip/paris/",
+      "checked_at": "2026-10-20T14:13:32.110Z",
+      "http_status": 200,
+      "final_url": "https://www.wipo.int/en/web/treaties/ip/paris/index",
+      "bytes": 93863,
+      "sha256": "f7163b9917cd7067266abe7045540c75bdece1303519893b94227859c61abca5",
+      "verification": "retrieval_only_not_legal_review"
+    },
+    {
+      "url": "https://www.wipo.int/treaties/en/ip/wct/",
+      "checked_at": "2026-10-20T14:13:32.701Z",
+      "http_status": 200,
+      "final_url": "https://www.wipo.int/en/web/treaties/ip/wct/index",
+      "bytes": 90344,
+      "sha256": "625eb5e3441278c6b32bc0ffff829aa573680fd1be526a3bd53eacf97f0cef6f",
+      "verification": "retrieval_only_not_legal_review"
+    }
+  ]
+}

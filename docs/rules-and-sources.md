@@ -1,0 +1,11 @@
+# Rule and source governance
+
+Technical rules in `src/rules.ts` define detection, classification, confidence, risk severity, trusted observation text, source pointers, limitations, missing facts and acceptance tests. They are version 1; they are technical controls, not binding legal interpretations. Tests must accompany detector changes.
+
+Legal research entries in `source-registry/laws.json` include a stable ID, jurisdiction, instrument/topic name, type, URL or explicit missing source, section where identified, domains, review/legal status, effective/review dates, reviewer and coverage fields. All dates/reviewers are null until real review evidence exists; all statutory obligation coverage is empty. Exact instrument links and regulator portals are distinguished by the topic/type and record title. Verify publisher identity rather than trusting a domain-shaped string.
+
+`pnpm sources:check` is an explicit network-enabled maintenance command. It uses the configured HTTPS proxy and normal TLS verification, bounds response size/time, records status/redirect/hash, and deletes downloaded response bodies. HTTP 200 can still be a challenge/error page; HTTP 202 with zero bytes does not provide legal text. Retrieval metadata never changes review status or automatically activates a rule. Honor publisher terms, robots policies and text licensing before adding automated bulk ingestion. The command does not crawl linked sites.
+
+Before adding any active legal rule, require an exact official source/version and sections, source licensing, commencement/transition/amendment/sunset dates, litigation and injunction checks, scoped predicates with missing-fact behavior, jurisdiction-qualified reviewer sign-off, negative/positive scenarios, next-review deadline, and an auditable approval record. The current schema intentionally accepts only research-preview legal entries: active legal rules require a separately reviewed implementation change, not flipping a JSON string.
+
+No signed pack updater exists. Repository commits and lockfile integrity provide versioned development artifacts, not signed legal currency. Keep old versions available; never silently replace a pinned rulepack during a scan. A source correction should cite primary evidence and separate factual text retrieval from legal interpretation.

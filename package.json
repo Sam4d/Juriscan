@@ -1,0 +1,56 @@
+{
+  "name": "@sam4d/juriscan",
+  "version": "0.1.0-alpha.1",
+  "description": "Local-first MCP technical compliance evidence and legal research intake",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24.19.0 <25"
+  },
+  "packageManager": "pnpm@12.14.0",
+  "bin": {
+    "juriscan": "dist/cli.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "source-registry",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "docs",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "GOVERNANCE.md",
+    "CODE_OF_CONDUCT.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "pnpm build && vitest run",
+    "check": "pnpm test && node scripts/check-docs.mjs",
+    "format": "prettier --write src test scripts docs README.md",
+    "format:check": "prettier --check src test scripts docs README.md",
+    "sources:check": "node scripts/check-sources.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "docs:generate": "pnpm build && node scripts/generate-docs.mjs && prettier --write docs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.3.1",
+    "spdx-expression-parse": "5.0.0",
+    "typescript": "6.0.3",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.3.1",
+    "@types/node": "24.10.1",
+    "@types/spdx-expression-parse": "4.0.0",
+    "ajv": "8.17.1",
+    "prettier": "3.6.2",
+    "vitest": "5.0.5"
+  },
+  "license": "Apache-2.0"
+}

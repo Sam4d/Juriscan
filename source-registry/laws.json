@@ -1,0 +1,4581 @@
+{
+  "schema_version": 1,
+  "exhaustive": false,
+  "verified_active": 0,
+  "entries": [
+    {
+      "id": "eu-gdpr",
+      "jurisdiction": "EU",
+      "name": "GDPR",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "section": "Articles 3, 5\u20139, 12\u201323, 25, 28, 30, 32\u201335 and Chapter V",
+      "domains": [
+        "privacy",
+        "security",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-eprivacy-directive",
+      "jurisdiction": "EU",
+      "name": "ePrivacy Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+      "section": null,
+      "domains": [
+        "tracking",
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-digital-services-act",
+      "jurisdiction": "EU",
+      "name": "Digital Services Act",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "section": null,
+      "domains": [
+        "platforms",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-ai-act",
+      "jurisdiction": "EU",
+      "name": "AI Act",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "section": null,
+      "domains": [
+        "ai"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-european-accessibility-act",
+      "jurisdiction": "EU",
+      "name": "European Accessibility Act",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+      "section": null,
+      "domains": [
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-nis2",
+      "jurisdiction": "EU",
+      "name": "NIS2",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "section": null,
+      "domains": [
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-dora",
+      "jurisdiction": "EU",
+      "name": "DORA",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+      "section": null,
+      "domains": [
+        "finance",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-cyber-resilience-act",
+      "jurisdiction": "EU",
+      "name": "Cyber Resilience Act",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
+      "section": null,
+      "domains": [
+        "security",
+        "iot"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-consumer-rights-directive",
+      "jurisdiction": "EU",
+      "name": "Consumer Rights Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+      "section": null,
+      "domains": [
+        "consumer",
+        "payments"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-unfair-commercial-practices-directive",
+      "jurisdiction": "EU",
+      "name": "Unfair Commercial Practices Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+      "section": null,
+      "domains": [
+        "consumer",
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-omnibus-directive",
+      "jurisdiction": "EU",
+      "name": "Omnibus Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2019/2161/oj",
+      "section": null,
+      "domains": [
+        "consumer"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-digital-content-directive",
+      "jurisdiction": "EU",
+      "name": "Digital Content Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+      "section": null,
+      "domains": [
+        "consumer"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-platform-to-business-regulation",
+      "jurisdiction": "EU",
+      "name": "Platform-to-Business Regulation",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2019/1150/oj",
+      "section": null,
+      "domains": [
+        "platforms"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-digital-markets-act",
+      "jurisdiction": "EU",
+      "name": "Digital Markets Act",
+      "kind": "regulation",
+      "primary_source": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj",
+      "section": null,
+      "domains": [
+        "platforms"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-data-protection-act-2018-and-uk-gdpr-amendments",
+      "jurisdiction": "GB",
+      "name": "Data Protection Act 2018 and UK GDPR amendments",
+      "kind": "law",
+      "primary_source": "https://www.legislation.gov.uk/ukpga/2018/12/contents",
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-pecr",
+      "jurisdiction": "GB",
+      "name": "PECR",
+      "kind": "law",
+      "primary_source": "https://www.legislation.gov.uk/uksi/2003/2426/contents",
+      "section": null,
+      "domains": [
+        "tracking",
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-online-safety-act-2023",
+      "jurisdiction": "GB",
+      "name": "Online Safety Act 2023",
+      "kind": "law",
+      "primary_source": "https://www.legislation.gov.uk/ukpga/2023/50/contents",
+      "section": null,
+      "domains": [
+        "platforms",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-digital-markets-competition-and-consumers-act-2024",
+      "jurisdiction": "GB",
+      "name": "Digital Markets Competition and Consumers Act 2024",
+      "kind": "law",
+      "primary_source": "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+      "section": null,
+      "domains": [
+        "consumer",
+        "payments"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-equality-act-2010",
+      "jurisdiction": "GB",
+      "name": "Equality Act 2010",
+      "kind": "law",
+      "primary_source": "https://www.legislation.gov.uk/ukpga/2010/15/contents",
+      "section": null,
+      "domains": [
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-psti-act-2022",
+      "jurisdiction": "GB",
+      "name": "PSTI Act 2022",
+      "kind": "law",
+      "primary_source": "https://www.legislation.gov.uk/ukpga/2022/46/contents",
+      "section": null,
+      "domains": [
+        "iot",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gb-childrens-code",
+      "jurisdiction": "GB",
+      "name": "Childrens Code",
+      "kind": "statutory_code",
+      "primary_source": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+      "section": null,
+      "domains": [
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-ftc-act-section-5",
+      "jurisdiction": "US-FED",
+      "name": "FTC Act Section 5",
+      "kind": "law",
+      "primary_source": "https://www.ftc.gov/legal-library/browse/statutes/federal-trade-commission-act",
+      "section": null,
+      "domains": [
+        "consumer",
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-coppa-rule",
+      "jurisdiction": "US-FED",
+      "name": "COPPA Rule",
+      "kind": "regulation",
+      "primary_source": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-312",
+      "section": null,
+      "domains": [
+        "children",
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-can-spam",
+      "jurisdiction": "US-FED",
+      "name": "CAN-SPAM",
+      "kind": "law",
+      "primary_source": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter103&edition=prelim",
+      "section": null,
+      "domains": [
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-tcpa",
+      "jurisdiction": "US-FED",
+      "name": "TCPA",
+      "kind": "research_topic",
+      "primary_source": "https://www.fcc.gov/general/telemarketing-and-robocalls",
+      "section": null,
+      "domains": [
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-rosca",
+      "jurisdiction": "US-FED",
+      "name": "ROSCA",
+      "kind": "law",
+      "primary_source": "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+      "section": null,
+      "domains": [
+        "payments",
+        "consumer"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-negative-option-rule-and-litigation",
+      "jurisdiction": "US-FED",
+      "name": "Negative Option Rule and litigation",
+      "kind": "research_topic",
+      "primary_source": "https://www.ftc.gov/legal-library/browse/rules/negative-option-rule",
+      "section": null,
+      "domains": [
+        "payments",
+        "consumer"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-hipaa-privacy-and-security-rules",
+      "jurisdiction": "US-FED",
+      "name": "HIPAA Privacy and Security Rules",
+      "kind": "regulation",
+      "primary_source": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C",
+      "section": null,
+      "domains": [
+        "health",
+        "privacy",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-health-breach-notification-rule",
+      "jurisdiction": "US-FED",
+      "name": "Health Breach Notification Rule",
+      "kind": "regulation",
+      "primary_source": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-318",
+      "section": null,
+      "domains": [
+        "health",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-glba-safeguards-rule",
+      "jurisdiction": "US-FED",
+      "name": "GLBA Safeguards Rule",
+      "kind": "regulation",
+      "primary_source": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314",
+      "section": null,
+      "domains": [
+        "finance",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-fcra",
+      "jurisdiction": "US-FED",
+      "name": "FCRA",
+      "kind": "law",
+      "primary_source": "https://www.ftc.gov/legal-library/browse/statutes/fair-credit-reporting-act",
+      "section": null,
+      "domains": [
+        "finance",
+        "employment"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-ferpa",
+      "jurisdiction": "US-FED",
+      "name": "FERPA",
+      "kind": "law",
+      "primary_source": "https://studentprivacy.ed.gov/ferpa",
+      "section": null,
+      "domains": [
+        "education",
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-ada",
+      "jurisdiction": "US-FED",
+      "name": "ADA",
+      "kind": "law",
+      "primary_source": "https://www.ada.gov/law-and-regs/",
+      "section": null,
+      "domains": [
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-copyright-and-dmca",
+      "jurisdiction": "US-FED",
+      "name": "Copyright and DMCA",
+      "kind": "law",
+      "primary_source": "https://www.copyright.gov/title17/",
+      "section": null,
+      "domains": [
+        "ip",
+        "platforms"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-cipa",
+      "jurisdiction": "US-FED",
+      "name": "CIPA",
+      "kind": "law",
+      "primary_source": "https://www.fcc.gov/consumers/guides/childrens-internet-protection-act",
+      "section": null,
+      "domains": [
+        "children",
+        "education"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-vppa",
+      "jurisdiction": "US-FED",
+      "name": "VPPA",
+      "kind": "law",
+      "primary_source": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section2710&num=0&edition=prelim",
+      "section": null,
+      "domains": [
+        "privacy",
+        "media"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ca-ccpa-cpra-and-implementing-regulations",
+      "jurisdiction": "US-CA",
+      "name": "CCPA CPRA and implementing regulations",
+      "kind": "law",
+      "primary_source": "https://cppa.ca.gov/regulations/",
+      "section": null,
+      "domains": [
+        "privacy",
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ca-automatic-renewal-law",
+      "jurisdiction": "US-CA",
+      "name": "Automatic Renewal Law",
+      "kind": "law",
+      "primary_source": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=17602.&lawCode=BPC",
+      "section": null,
+      "domains": [
+        "payments"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-wa-my-health-my-data-act",
+      "jurisdiction": "US-WA",
+      "name": "My Health My Data Act",
+      "kind": "law",
+      "primary_source": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.373",
+      "section": null,
+      "domains": [
+        "health",
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-il-bipa",
+      "jurisdiction": "US-IL",
+      "name": "BIPA",
+      "kind": "law",
+      "primary_source": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004&ChapterID=57",
+      "section": null,
+      "domains": [
+        "biometrics",
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ny-shield-and-data-security",
+      "jurisdiction": "US-NY",
+      "name": "SHIELD and data security",
+      "kind": "law",
+      "primary_source": "https://ag.ny.gov/resources/organizations/data-breach-reporting/shield-act",
+      "section": null,
+      "domains": [
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-dpdp-act-rules-and-commencement-notifications",
+      "jurisdiction": "IN",
+      "name": "DPDP Act Rules and commencement notifications",
+      "kind": "research_topic",
+      "primary_source": "https://www.meity.gov.in/",
+      "section": null,
+      "domains": [
+        "privacy",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-it-act-and-intermediary-rules",
+      "jurisdiction": "IN",
+      "name": "IT Act and Intermediary Rules",
+      "kind": "research_topic",
+      "primary_source": "https://www.indiacode.nic.in/",
+      "section": null,
+      "domains": [
+        "platforms",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-cert-in-directions",
+      "jurisdiction": "IN",
+      "name": "CERT-In directions",
+      "kind": "research_topic",
+      "primary_source": "https://www.cert-in.org.in/",
+      "section": null,
+      "domains": [
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-consumer-protection-e-commerce-and-dark-patterns",
+      "jurisdiction": "IN",
+      "name": "Consumer protection e-commerce and dark patterns",
+      "kind": "research_topic",
+      "primary_source": "https://consumeraffairs.nic.in/",
+      "section": null,
+      "domains": [
+        "consumer",
+        "payments"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-rbi-regulated-financial-services",
+      "jurisdiction": "IN",
+      "name": "RBI regulated financial services",
+      "kind": "research_topic",
+      "primary_source": "https://www.rbi.org.in/",
+      "section": null,
+      "domains": [
+        "finance"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ca-pipeda",
+      "jurisdiction": "CA",
+      "name": "PIPEDA",
+      "kind": "law",
+      "primary_source": "https://laws-lois.justice.gc.ca/eng/acts/P-8.6/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ca-casl",
+      "jurisdiction": "CA",
+      "name": "CASL",
+      "kind": "law",
+      "primary_source": "https://crtc.gc.ca/eng/internet/anti.htm",
+      "section": null,
+      "domains": [
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ca-qc-quebec-private-sector-privacy-regime",
+      "jurisdiction": "CA-QC",
+      "name": "Quebec private sector privacy regime",
+      "kind": "law",
+      "primary_source": "https://www.legisquebec.gouv.qc.ca/en/document/cs/P-39.1",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "br-lgpd",
+      "jurisdiction": "BR",
+      "name": "LGPD",
+      "kind": "law",
+      "primary_source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "section": null,
+      "domains": [
+        "privacy",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "br-marco-civil-da-internet",
+      "jurisdiction": "BR",
+      "name": "Marco Civil da Internet",
+      "kind": "law",
+      "primary_source": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+      "section": null,
+      "domains": [
+        "platforms",
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "mx-federal-personal-data-framework-and-reforms",
+      "jurisdiction": "MX",
+      "name": "Federal personal data framework and reforms",
+      "kind": "research_topic",
+      "primary_source": "https://www.diputados.gob.mx/LeyesBiblio/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ar-personal-data-protection",
+      "jurisdiction": "AR",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.argentina.gob.ar/aaip",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "co-law-1581-and-implementing-rules",
+      "jurisdiction": "CO",
+      "name": "Law 1581 and implementing rules",
+      "kind": "research_topic",
+      "primary_source": "https://www.sic.gov.co/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "pe-personal-data-law-and-regulations",
+      "jurisdiction": "PE",
+      "name": "Personal data law and regulations",
+      "kind": "research_topic",
+      "primary_source": "https://www.gob.pe/anpd",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "cl-privacy-law-and-reform-commencement",
+      "jurisdiction": "CL",
+      "name": "Privacy law and reform commencement",
+      "kind": "research_topic",
+      "primary_source": "https://www.bcn.cl/leychile/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ec-personal-data-protection",
+      "jurisdiction": "EC",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.registroficial.gob.ec/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "uy-personal-data-protection",
+      "jurisdiction": "UY",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.gub.uy/unidad-reguladora-control-datos-personales/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "au-privacy-act-and-apps",
+      "jurisdiction": "AU",
+      "name": "Privacy Act and APPs",
+      "kind": "law",
+      "primary_source": "https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "au-online-safety-and-minimum-age-regime",
+      "jurisdiction": "AU",
+      "name": "Online safety and minimum-age regime",
+      "kind": "research_topic",
+      "primary_source": "https://www.esafety.gov.au/",
+      "section": null,
+      "domains": [
+        "children",
+        "platforms"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "au-spam-act",
+      "jurisdiction": "AU",
+      "name": "Spam Act",
+      "kind": "law",
+      "primary_source": "https://www.acma.gov.au/avoid-sending-spam",
+      "section": null,
+      "domains": [
+        "marketing"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "nz-privacy-act-2020",
+      "jurisdiction": "NZ",
+      "name": "Privacy Act 2020",
+      "kind": "law",
+      "primary_source": "https://www.privacy.org.nz/privacy-principles/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "sg-pdpa",
+      "jurisdiction": "SG",
+      "name": "PDPA",
+      "kind": "law",
+      "primary_source": "https://sso.agc.gov.sg/Act/PDPA2012",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "jp-appi",
+      "jurisdiction": "JP",
+      "name": "APPI",
+      "kind": "law",
+      "primary_source": "https://www.ppc.go.jp/en/legal/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "kr-pipa",
+      "jurisdiction": "KR",
+      "name": "PIPA",
+      "kind": "research_topic",
+      "primary_source": "https://www.pipc.go.kr/eng/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "cn-pipl-dsl-csl-and-cac-measures",
+      "jurisdiction": "CN",
+      "name": "PIPL DSL CSL and CAC measures",
+      "kind": "research_topic",
+      "primary_source": "https://www.cac.gov.cn/",
+      "section": null,
+      "domains": [
+        "privacy",
+        "ai",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "th-pdpa",
+      "jurisdiction": "TH",
+      "name": "PDPA",
+      "kind": "research_topic",
+      "primary_source": "https://www.pdpc.or.th/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "id-personal-data-protection-law",
+      "jurisdiction": "ID",
+      "name": "Personal Data Protection Law",
+      "kind": "research_topic",
+      "primary_source": "https://peraturan.bpk.go.id/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ph-data-privacy-act",
+      "jurisdiction": "PH",
+      "name": "Data Privacy Act",
+      "kind": "law",
+      "primary_source": "https://privacy.gov.ph/data-privacy-act/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "my-pdpa-and-amendments",
+      "jurisdiction": "MY",
+      "name": "PDPA and amendments",
+      "kind": "research_topic",
+      "primary_source": "https://www.pdp.gov.my/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "vn-personal-data-framework-and-commencement",
+      "jurisdiction": "VN",
+      "name": "Personal data framework and commencement",
+      "kind": "research_topic",
+      "primary_source": "https://vbpl.vn/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "tw-personal-data-protection-act",
+      "jurisdiction": "TW",
+      "name": "Personal Data Protection Act",
+      "kind": "research_topic",
+      "primary_source": "https://law.moj.gov.tw/ENG/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "hk-pdpo",
+      "jurisdiction": "HK",
+      "name": "PDPO",
+      "kind": "research_topic",
+      "primary_source": "https://www.pcpd.org.hk/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "pk-personal-data-legislative-status",
+      "jurisdiction": "PK",
+      "name": "Personal data legislative status",
+      "kind": "research_topic",
+      "primary_source": "https://moitt.gov.pk/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "bd-personal-data-legislative-status",
+      "jurisdiction": "BD",
+      "name": "Personal data legislative status",
+      "kind": "research_topic",
+      "primary_source": "https://bdlaws.minlaw.gov.bd/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "lk-personal-data-protection-act-and-commencement",
+      "jurisdiction": "LK",
+      "name": "Personal Data Protection Act and commencement",
+      "kind": "research_topic",
+      "primary_source": "https://www.dpa.gov.lk/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "sa-pdpl-and-implementing-regulations",
+      "jurisdiction": "SA",
+      "name": "PDPL and implementing regulations",
+      "kind": "research_topic",
+      "primary_source": "https://sdaia.gov.sa/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ae-federal-personal-data-framework",
+      "jurisdiction": "AE",
+      "name": "Federal personal data framework",
+      "kind": "research_topic",
+      "primary_source": "https://uaelegislation.gov.ae/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ae-difc-difc-data-protection-law",
+      "jurisdiction": "AE-DIFC",
+      "name": "DIFC Data Protection Law",
+      "kind": "law",
+      "primary_source": "https://www.difc.com/business/operating/data-protection",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ae-adgm-adgm-data-protection-regulations",
+      "jurisdiction": "AE-ADGM",
+      "name": "ADGM Data Protection Regulations",
+      "kind": "law",
+      "primary_source": "https://www.adgm.com/operating-in-adgm/office-of-data-protection",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "qa-personal-data-protection",
+      "jurisdiction": "QA",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.almeezan.qa/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "bh-personal-data-protection",
+      "jurisdiction": "BH",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.pdp.gov.bh/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "om-personal-data-protection",
+      "jurisdiction": "OM",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.mtcit.gov.om/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "il-protection-of-privacy-law-and-amendments",
+      "jurisdiction": "IL",
+      "name": "Protection of Privacy Law and amendments",
+      "kind": "research_topic",
+      "primary_source": "https://www.gov.il/en/departments/the_privacy_protection_authority",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "tr-kvkk",
+      "jurisdiction": "TR",
+      "name": "KVKK",
+      "kind": "law",
+      "primary_source": "https://www.kvkk.gov.tr/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "za-popia",
+      "jurisdiction": "ZA",
+      "name": "POPIA",
+      "kind": "law",
+      "primary_source": "https://inforegulator.org.za/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ng-data-protection-act-and-implementation",
+      "jurisdiction": "NG",
+      "name": "Data Protection Act and implementation",
+      "kind": "research_topic",
+      "primary_source": "https://ndpc.gov.ng/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ke-data-protection-act-and-regulations",
+      "jurisdiction": "KE",
+      "name": "Data Protection Act and regulations",
+      "kind": "research_topic",
+      "primary_source": "https://www.odpc.go.ke/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gh-data-protection-act",
+      "jurisdiction": "GH",
+      "name": "Data Protection Act",
+      "kind": "law",
+      "primary_source": "https://dataprotection.org.gh/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eg-personal-data-law-and-commencement",
+      "jurisdiction": "EG",
+      "name": "Personal data law and commencement",
+      "kind": "research_topic",
+      "primary_source": "https://mcit.gov.eg/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ma-data-protection-framework",
+      "jurisdiction": "MA",
+      "name": "Data protection framework",
+      "kind": "research_topic",
+      "primary_source": "https://www.cndp.ma/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ug-data-protection-framework",
+      "jurisdiction": "UG",
+      "name": "Data protection framework",
+      "kind": "research_topic",
+      "primary_source": "https://www.pdpo.go.ug/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "rw-data-protection-framework",
+      "jurisdiction": "RW",
+      "name": "Data protection framework",
+      "kind": "research_topic",
+      "primary_source": "https://dpo.gov.rw/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "tz-data-protection-framework",
+      "jurisdiction": "TZ",
+      "name": "Data protection framework",
+      "kind": "research_topic",
+      "primary_source": "https://www.pdpc.go.tz/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "mu-data-protection-act",
+      "jurisdiction": "MU",
+      "name": "Data Protection Act",
+      "kind": "law",
+      "primary_source": "https://dataprotection.govmu.org/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "sn-personal-data-protection",
+      "jurisdiction": "SN",
+      "name": "Personal data protection",
+      "kind": "research_topic",
+      "primary_source": "https://www.cdp.sn/",
+      "section": null,
+      "domains": [
+        "privacy"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-wcag-2-2",
+      "jurisdiction": "GLOBAL",
+      "name": "WCAG 2.2",
+      "kind": "standard",
+      "primary_source": "https://www.w3.org/TR/WCAG22/",
+      "section": null,
+      "domains": [
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-pci-dss",
+      "jurisdiction": "GLOBAL",
+      "name": "PCI DSS",
+      "kind": "industry_standard",
+      "primary_source": "https://www.pcisecuritystandards.org/standards/",
+      "section": null,
+      "domains": [
+        "payments",
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-iso-27001",
+      "jurisdiction": "GLOBAL",
+      "name": "ISO 27001",
+      "kind": "standard",
+      "primary_source": "https://www.iso.org/standard/27001",
+      "section": null,
+      "domains": [
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-soc-2",
+      "jurisdiction": "GLOBAL",
+      "name": "SOC 2",
+      "kind": "attestation_framework",
+      "primary_source": "https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services",
+      "section": null,
+      "domains": [
+        "security"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-al-alabama-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-AL",
+      "name": "Alabama privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ak-alaska-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-AK",
+      "name": "Alaska privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-az-arizona-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-AZ",
+      "name": "Arizona privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ar-arkansas-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-AR",
+      "name": "Arkansas privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ca-california-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-CA",
+      "name": "California privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-co-colorado-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-CO",
+      "name": "Colorado privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ct-connecticut-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-CT",
+      "name": "Connecticut privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-de-delaware-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-DE",
+      "name": "Delaware privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fl-florida-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-FL",
+      "name": "Florida privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ga-georgia-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-GA",
+      "name": "Georgia privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-hi-hawaii-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-HI",
+      "name": "Hawaii privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-id-idaho-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-ID",
+      "name": "Idaho privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-il-illinois-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-IL",
+      "name": "Illinois privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-in-indiana-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-IN",
+      "name": "Indiana privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ia-iowa-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-IA",
+      "name": "Iowa privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ks-kansas-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-KS",
+      "name": "Kansas privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ky-kentucky-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-KY",
+      "name": "Kentucky privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-la-louisiana-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-LA",
+      "name": "Louisiana privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-me-maine-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-ME",
+      "name": "Maine privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-md-maryland-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MD",
+      "name": "Maryland privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ma-massachusetts-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MA",
+      "name": "Massachusetts privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-mi-michigan-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MI",
+      "name": "Michigan privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-mn-minnesota-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MN",
+      "name": "Minnesota privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ms-mississippi-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MS",
+      "name": "Mississippi privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-mo-missouri-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MO",
+      "name": "Missouri privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-mt-montana-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MT",
+      "name": "Montana privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ne-nebraska-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NE",
+      "name": "Nebraska privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-nv-nevada-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NV",
+      "name": "Nevada privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-nh-new-hampshire-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NH",
+      "name": "New Hampshire privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-nj-new-jersey-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NJ",
+      "name": "New Jersey privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-nm-new-mexico-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NM",
+      "name": "New Mexico privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ny-new-york-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NY",
+      "name": "New York privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-nc-north-carolina-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-NC",
+      "name": "North Carolina privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-nd-north-dakota-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-ND",
+      "name": "North Dakota privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-oh-ohio-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-OH",
+      "name": "Ohio privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ok-oklahoma-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-OK",
+      "name": "Oklahoma privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-or-oregon-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-OR",
+      "name": "Oregon privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-pa-pennsylvania-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-PA",
+      "name": "Pennsylvania privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ri-rhode-island-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-RI",
+      "name": "Rhode Island privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-sc-south-carolina-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-SC",
+      "name": "South Carolina privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-sd-south-dakota-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-SD",
+      "name": "South Dakota privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-tn-tennessee-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-TN",
+      "name": "Tennessee privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-tx-texas-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-TX",
+      "name": "Texas privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-ut-utah-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-UT",
+      "name": "Utah privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-vt-vermont-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-VT",
+      "name": "Vermont privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-va-virginia-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-VA",
+      "name": "Virginia privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-wa-washington-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-WA",
+      "name": "Washington privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-wv-west-virginia-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-WV",
+      "name": "West Virginia privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-wi-wisconsin-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-WI",
+      "name": "Wisconsin privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-wy-wyoming-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-WY",
+      "name": "Wyoming privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-dc-district-of-columbia-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-DC",
+      "name": "District of Columbia privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-pr-puerto-rico-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-PR",
+      "name": "Puerto Rico privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-gu-guam-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-GU",
+      "name": "Guam privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-vi-us-virgin-islands-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-VI",
+      "name": "US Virgin Islands privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-as-american-samoa-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-AS",
+      "name": "American Samoa privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-mp-northern-mariana-islands-privacy-breach-consumer-renewal-and-youth-law-research",
+      "jurisdiction": "US-MP",
+      "name": "Northern Mariana Islands privacy breach consumer renewal and youth law research",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "security",
+        "consumer",
+        "payments",
+        "children"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "at-austria-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "AT",
+      "name": "Austria national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "be-belgium-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "BE",
+      "name": "Belgium national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "bg-bulgaria-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "BG",
+      "name": "Bulgaria national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "hr-croatia-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "HR",
+      "name": "Croatia national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "cy-cyprus-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "CY",
+      "name": "Cyprus national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "cz-czechia-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "CZ",
+      "name": "Czechia national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "dk-denmark-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "DK",
+      "name": "Denmark national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ee-estonia-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "EE",
+      "name": "Estonia national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "fi-finland-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "FI",
+      "name": "Finland national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "fr-france-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "FR",
+      "name": "France national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "de-germany-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "DE",
+      "name": "Germany national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "gr-greece-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "GR",
+      "name": "Greece national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "hu-hungary-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "HU",
+      "name": "Hungary national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ie-ireland-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "IE",
+      "name": "Ireland national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "it-italy-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "IT",
+      "name": "Italy national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "lv-latvia-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "LV",
+      "name": "Latvia national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "lt-lithuania-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "LT",
+      "name": "Lithuania national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "lu-luxembourg-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "LU",
+      "name": "Luxembourg national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "mt-malta-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "MT",
+      "name": "Malta national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "nl-netherlands-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "NL",
+      "name": "Netherlands national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "pl-poland-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "PL",
+      "name": "Poland national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "pt-portugal-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "PT",
+      "name": "Portugal national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "ro-romania-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "RO",
+      "name": "Romania national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "sk-slovakia-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "SK",
+      "name": "Slovakia national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "si-slovenia-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "SI",
+      "name": "Slovenia national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "es-spain-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "ES",
+      "name": "Spain national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "se-sweden-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "SE",
+      "name": "Sweden national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "is-iceland-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "IS",
+      "name": "Iceland national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "li-liechtenstein-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "LI",
+      "name": "Liechtenstein national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "no-norway-national-privacy-cookie-consumer-and-accessibility-implementation",
+      "jurisdiction": "NO",
+      "name": "Norway national privacy cookie consumer and accessibility implementation",
+      "kind": "research_topic",
+      "primary_source": null,
+      "section": null,
+      "domains": [
+        "privacy",
+        "tracking",
+        "consumer",
+        "accessibility"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-berne-convention-copyright-research",
+      "jurisdiction": "GLOBAL",
+      "name": "Berne Convention copyright research",
+      "kind": "treaty",
+      "primary_source": "https://www.wipo.int/treaties/en/ip/berne/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-paris-convention-industrial-property-research",
+      "jurisdiction": "GLOBAL",
+      "name": "Paris Convention industrial property research",
+      "kind": "treaty",
+      "primary_source": "https://www.wipo.int/treaties/en/ip/paris/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-wipo-copyright-treaty-research",
+      "jurisdiction": "GLOBAL",
+      "name": "WIPO Copyright Treaty research",
+      "kind": "treaty",
+      "primary_source": "https://www.wipo.int/treaties/en/ip/wct/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-madrid-trademark-system-territorial-scope-research",
+      "jurisdiction": "GLOBAL",
+      "name": "Madrid trademark system territorial scope research",
+      "kind": "research_topic",
+      "primary_source": "https://www.wipo.int/madrid/en/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-patent-cooperation-treaty-system-research",
+      "jurisdiction": "GLOBAL",
+      "name": "Patent Cooperation Treaty system research",
+      "kind": "research_topic",
+      "primary_source": "https://www.wipo.int/pct/en/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-lanham-act-trademark-research",
+      "jurisdiction": "US-FED",
+      "name": "Lanham Act trademark research",
+      "kind": "law",
+      "primary_source": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter22&edition=prelim",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "us-fed-title-35-patent-research",
+      "jurisdiction": "US-FED",
+      "name": "Title 35 patent research",
+      "kind": "law",
+      "primary_source": "https://uscode.house.gov/view.xhtml?path=/prelim@title35&edition=prelim",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-copyright-digital-single-market-directive",
+      "jurisdiction": "EU",
+      "name": "Copyright Digital Single Market Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2019/790/oj",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-computer-programs-directive",
+      "jurisdiction": "EU",
+      "name": "Computer Programs Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2009/24/oj",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-database-directive",
+      "jurisdiction": "EU",
+      "name": "Database Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/1996/9/oj",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "eu-trade-secrets-directive",
+      "jurisdiction": "EU",
+      "name": "Trade Secrets Directive",
+      "kind": "directive",
+      "primary_source": "https://eur-lex.europa.eu/eli/dir/2016/943/oj",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-copyright-act-and-rules-research",
+      "jurisdiction": "IN",
+      "name": "Copyright Act and rules research",
+      "kind": "research_topic",
+      "primary_source": "https://www.indiacode.nic.in/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-trade-marks-act-and-registry-research",
+      "jurisdiction": "IN",
+      "name": "Trade Marks Act and registry research",
+      "kind": "research_topic",
+      "primary_source": "https://ipindia.gov.in/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "in-patents-act-and-registry-research",
+      "jurisdiction": "IN",
+      "name": "Patents Act and registry research",
+      "kind": "research_topic",
+      "primary_source": "https://ipindia.gov.in/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    },
+    {
+      "id": "global-spdx-license-identifiers-and-expression-metadata",
+      "jurisdiction": "GLOBAL",
+      "name": "SPDX license identifiers and expression metadata",
+      "kind": "standard",
+      "primary_source": "https://spdx.org/licenses/",
+      "section": null,
+      "domains": [
+        "ip"
+      ],
+      "review_status": "research_preview",
+      "legal_status": "unverified",
+      "effective_date": null,
+      "source_checked_at": null,
+      "reviewer": null,
+      "supported_controls": [],
+      "unsupported_obligations": [
+        "All statutory obligations: no legally reviewed bindings in this release."
+      ],
+      "next_review_date": null
+    }
+  ]
+}

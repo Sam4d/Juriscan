@@ -1,0 +1,2055 @@
+[
+  {
+    "name": "juriscan_version",
+    "description": "Build and schema versions; no remote update lookup.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_capabilities",
+    "description": "Actual technical coverage and explicit limitations.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_health",
+    "description": "Check authorized roots are available without exposing credentials.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_scan",
+    "description": "Read-only bounded scan of an explicitly allowed root. Request cancellation is supported by MCP.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": "string",
+          "maxLength": 4096
+        },
+        "options": {
+          "type": "object",
+          "properties": {
+            "limits": {
+              "default": {
+                "max_files": 3000,
+                "max_file_bytes": 500000,
+                "max_total_bytes": 20000000,
+                "max_duration_ms": 30000,
+                "max_findings": 500
+              },
+              "type": "object",
+              "properties": {
+                "max_files": {
+                  "default": 3000,
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 10000
+                },
+                "max_file_bytes": {
+                  "default": 500000,
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 1000000
+                },
+                "max_total_bytes": {
+                  "default": 20000000,
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 50000000
+                },
+                "max_duration_ms": {
+                  "default": 30000,
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 120000
+                },
+                "max_findings": {
+                  "default": 500,
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 2000
+                }
+              },
+              "additionalProperties": false
+            },
+            "include_rules": {
+              "maxItems": 100,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 100
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": ["root"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_project_profile",
+    "description": "Scan supported files and summarize observed domains. This is not a complete dependency or data-flow inventory.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": "string",
+          "maxLength": 4096
+        }
+      },
+      "required": ["root"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_scan_status",
+    "description": "Retrieve a retained completed, partial or cancelled scan status.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        }
+      },
+      "required": ["scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_findings",
+    "description": "Paginated observations; no source excerpts or credential values.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        },
+        "offset": {
+          "default": 0,
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "limit": {
+          "default": 25,
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "rule_id": {
+          "type": "string",
+          "maxLength": 100
+        }
+      },
+      "required": ["scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_get_finding",
+    "description": "Retrieve one evidence-backed observation.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        },
+        "finding_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        }
+      },
+      "required": ["scan_id", "finding_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_legal_intake",
+    "description": "Normalize user facts and surface missing facts; no invented answers.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "answers": {
+          "type": "object",
+          "properties": {
+            "owner_country": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "target_markets": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "actual_user_markets": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "audience": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "child_directed": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "known_minor_users": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "personal_data": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "sensitive_data": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "advertising": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "cross_border_transfers": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "subscriptions": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "ugc": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "ai_features": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "industries": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "revenue": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "entity_role": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "retention": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "rights_process": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "incident_response": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": ["answers"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_applicability",
+    "description": "Research candidates only. No legal rule is verified or asserted applicable.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "facts": {
+          "type": "object",
+          "properties": {
+            "owner_country": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "target_markets": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "actual_user_markets": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "audience": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "child_directed": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "known_minor_users": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "personal_data": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "sensitive_data": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "advertising": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "cross_border_transfers": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "subscriptions": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "ugc": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "ai_features": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "industries": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "revenue": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "entity_role": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "retention": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "rights_process": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            },
+            "incident_response": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "string",
+                  "enum": ["known", "unknown", "disputed"]
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "maxItems": 50,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 100
+                      }
+                    }
+                  ]
+                }
+              },
+              "required": ["state"],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "jurisdictions": {
+          "maxItems": 30,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 20
+          }
+        }
+      },
+      "required": ["facts", "jurisdictions"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_list_jurisdictions",
+    "description": "Paginated catalog jurisdictions; all legal obligations remain unverified.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "offset": {
+          "default": 0,
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "limit": {
+          "default": 25,
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        }
+      },
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_list_rules",
+    "description": "Paginated active technical detectors. Legal research is in the legal catalog.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "offset": {
+          "default": 0,
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "limit": {
+          "default": 25,
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        }
+      },
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_get_rule",
+    "description": "Technical detector metadata, acceptance tests, source pointers and limitations.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "rule_id": {
+          "type": "string",
+          "maxLength": 100
+        }
+      },
+      "required": ["rule_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_legal_catalog",
+    "description": "Filter the research inventory, including missing primary sources. Not a statement of current law.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "offset": {
+          "default": 0,
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "limit": {
+          "default": 25,
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "jurisdiction": {
+          "type": "string",
+          "maxLength": 20
+        },
+        "domain": {
+          "type": "string",
+          "maxLength": 40
+        }
+      },
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_industry_taxonomy",
+    "description": "Available sectors, product archetypes and feature dimensions.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_industry_checklist",
+    "description": "Compose sector/feature/market research questions. Uncovered combinations remain visible.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "industries": {
+          "minItems": 1,
+          "maxItems": 10,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "general-saas",
+              "healthcare",
+              "mental-health",
+              "pharmacy",
+              "finance",
+              "insurance",
+              "credit-lending",
+              "crypto",
+              "education",
+              "childcare",
+              "employment-recruiting",
+              "hr-payroll",
+              "legal-services",
+              "government",
+              "ecommerce",
+              "marketplace",
+              "social-network",
+              "dating",
+              "gaming",
+              "gambling",
+              "media-streaming",
+              "news-publishing",
+              "creator-platform",
+              "advertising",
+              "travel",
+              "hospitality",
+              "real-estate",
+              "property-management",
+              "transport",
+              "logistics",
+              "food-delivery",
+              "restaurants",
+              "agriculture",
+              "manufacturing",
+              "construction",
+              "energy",
+              "utilities",
+              "telecom",
+              "iot-smart-home",
+              "cybersecurity",
+              "ai-developer-tools",
+              "biometrics",
+              "fitness-wellness",
+              "sports-events",
+              "charity-nonprofit",
+              "religious-community",
+              "political-campaign",
+              "adult-content",
+              "weapons-controlled-goods",
+              "alcohol-tobacco",
+              "scientific-research",
+              "environmental-services",
+              "professional-services",
+              "other"
+            ]
+          }
+        },
+        "features": {
+          "default": [],
+          "maxItems": 30,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "accounts",
+              "subscriptions",
+              "checkout",
+              "analytics",
+              "advertising",
+              "children",
+              "user-content",
+              "messaging",
+              "ai",
+              "health",
+              "biometrics",
+              "geolocation",
+              "email-marketing",
+              "sms",
+              "cross-border",
+              "public-services",
+              "file-uploads",
+              "credit-scoring",
+              "employment-decisions",
+              "physical-products",
+              "connected-device",
+              "donations",
+              "video-streaming",
+              "data-broker",
+              "third-party-vendors",
+              "open-source-distribution",
+              "marketplace-payouts"
+            ]
+          }
+        },
+        "archetypes": {
+          "default": [],
+          "maxItems": 10,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "marketing-site",
+              "blog",
+              "directory",
+              "booking",
+              "ecommerce",
+              "marketplace",
+              "subscription-saas",
+              "internal-dashboard",
+              "crm",
+              "community",
+              "chat",
+              "social-network",
+              "mobile-backend",
+              "developer-api",
+              "ai-assistant",
+              "content-platform",
+              "learning-platform",
+              "telehealth",
+              "fintech",
+              "iot-control",
+              "public-service",
+              "other"
+            ]
+          }
+        },
+        "jurisdictions": {
+          "minItems": 1,
+          "maxItems": 30,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,6}(?:-[A-Z0-9]{1,8})?$"
+          }
+        }
+      },
+      "required": ["industries", "jurisdictions"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_remediation_plan",
+    "description": "Prioritized tasks, acceptance tests and human approval gates.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        }
+      },
+      "required": ["scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_generate_master_prompt",
+    "description": "Deterministic bounded implementation prompt, without copying source instructions.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        },
+        "max_characters": {
+          "default": 35000,
+          "type": "integer",
+          "minimum": 2000,
+          "maximum": 100000
+        }
+      },
+      "required": ["scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_compare",
+    "description": "Compare static observations within the same project and scan scope.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "base_scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        },
+        "head_scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        }
+      },
+      "required": ["base_scan_id", "head_scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_verify",
+    "description": "Re-scan and compare; does not execute project tests or claim legal remediation.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        }
+      },
+      "required": ["scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_report",
+    "description": "Return JSON, Markdown, text or SARIF in the response; never writes a file.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "scan_id": {
+          "type": "string",
+          "pattern": "^[a-z]+_[a-f0-9]{24}$"
+        },
+        "format": {
+          "default": "json",
+          "type": "string",
+          "enum": ["json", "markdown", "text", "sarif"]
+        }
+      },
+      "required": ["scan_id"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_rulepack_status",
+    "description": "Offline legal and technical freshness disclosure.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_purge",
+    "description": "Discard this session’s in-memory scans.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {},
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_ip_review",
+    "description": "Offline copyright/license/asset provenance and selected brand-term review. No ownership or infringement determination.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": "string",
+          "maxLength": 4096
+        },
+        "brand_terms": {
+          "default": [],
+          "maxItems": 30,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 60,
+            "pattern": "^[\\p{L}\\p{N} .'-]+$"
+          }
+        }
+      },
+      "required": ["root"],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": false
+    }
+  },
+  {
+    "name": "juriscan_ip_web_compare",
+    "description": "Explicitly authorized public-reference GET and local byte/text comparison. No upload, search engine, crawling, or infringement conclusion. Requires exact approved domains and authorized_network true.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": "string",
+          "maxLength": 4096
+        },
+        "reference_urls": {
+          "minItems": 1,
+          "maxItems": 10,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 2048,
+            "format": "uri"
+          }
+        },
+        "allowed_domains": {
+          "minItems": 1,
+          "maxItems": 10,
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z]{2,63}$"
+          }
+        },
+        "authorized_network": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "required": [
+        "root",
+        "reference_urls",
+        "allowed_domains",
+        "authorized_network"
+      ],
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "openWorldHint": true
+    }
+  }
+]

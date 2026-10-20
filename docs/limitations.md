@@ -1,0 +1,17 @@
+# Limitations
+
+This is an alpha technical scanner, not the full starter specification and not a global legal service. It has no reviewed jurisdictional enforcement rules, legal currency guarantee, court/contract interpretation, tax/trade/litigation advice, professional licensing analysis or sector certification. The catalog is a research inventory, not exhaustive legislation. All country/region/local/sector omissions remain unknown, including places with no catalog entry. Industry composition does not enumerate every website, business model or interaction.
+
+Source retrieval is not legal review. Portal pages are not full statutes. Statutes may have amendments, litigation, injunctions, staggered commencement, exemptions, territorial limits and operational obligations that cannot be determined from code. The research catalog includes standards and attestation frameworks separately from laws. No qualified reviewer has approved a legal rule here.
+
+Supported analysis is limited to JavaScript/TypeScript/JSX, selected configuration credentials, SQL lexical patterns and Firebase lexical patterns. No whole-program control/data flow, type checking of target code, semantic SQL evaluation, deployed policy inspection, framework authorization proof, privacy-notice comparison, complete deletion/retention analysis, recurring-term review, browser network behavior or rendered accessibility audit occurs. Comments are handled for supported parsers, but configuration/string semantics vary. Custom wrappers, dynamic imports, aliases, generated code and other languages can evade checks.
+
+The scanner excludes dependencies, common build directories and unsupported extensions. It does not scan Git history, production bundles by default, remote services or external repositories. It skips symlinks and unusual filenames. Files that change concurrently can yield inconsistent source snapshots. Time/cancellation limits are cooperative around bounded file processing, not hard real-time parser termination. OS-level isolation is needed for hostile inputs.
+
+A syntactic finding may be intentional (public RLS/Firebase permissions, decorative images, server-only variables eliminated by bundling). Human review and runtime tests determine impact. Unsupported extensions are outside scope even when scan state is complete. “Complete” only means the selected bounded scan completed; zero findings never means legal or security clearance.
+
+MCP tests use the official reference SDK, not every named host. Linux is the only supported platform. No browser mode, HTTP transport, automatic fix, automatic updates, signature service, persistence, baseline/suppression configuration, SBOM attestation or npm publication is claimed. See [roadmap](roadmap.md).
+
+An Apache-2.0 license and disclaimer do not guarantee immunity from negligence, misleading claims, consumer duties, regulatory action or other liability. A qualified lawyer should review public positioning, distribution terms, privacy practices and relevant jurisdiction-specific requirements before commercial reliance.
+
+The added IP tools provide limited offline provenance/license observations and explicit-reference byte/text comparison. They do not fill the legal or whole-web coverage gaps described above. IP issues are all human-review leads; current sources and rights are not verified. Read the [IP guide](intellectual-property.md) before interpreting matches or clean results.

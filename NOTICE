@@ -1,0 +1,8 @@
+Juriscan
+Original project code distributed under Apache License 2.0 at the repository owner's direction.
+
+The legal research catalog contains pointers and original metadata, not licensed copies of statutes, standards, publisher pages or legal opinions. Third-party source texts, trademarks and standards remain subject to their respective rights. No ownership of those materials is claimed.
+
+The SARIF JSON schema under test/vendor is sourced from SchemaStore/schemastore (src/schemas/json/sarif-2.1.0.json). Its license is preserved alongside it. SARIF is an OASIS standard. Dependency licenses remain in the installed packages; see pnpm-lock.yaml for exact versions.
+
+The research backlog excerpt was supplied by the repository owner as part of JURISCAN_CODEX_STARTER.zip and is retained as unverified reference material.

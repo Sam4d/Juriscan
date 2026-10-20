@@ -1,0 +1,13 @@
+{
+  "measured_at": "2026-10-20T08:22:39.293Z",
+  "node": "v24.19.0",
+  "platform": "linux",
+  "target": "1000 generated trivial TypeScript modules; no findings expected",
+  "files": 1000,
+  "bytes": 28780,
+  "state": "complete",
+  "findings": 0,
+  "elapsed_ms": 274,
+  "peak_rss_kib": 152420,
+  "limitations": "Single warm process, small synthetic files, shared container; not a real-project throughput guarantee or detection/legal accuracy benchmark."
+}
