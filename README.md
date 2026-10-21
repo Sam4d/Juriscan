@@ -1,6 +1,6 @@
-# Juriscan
+# Juriscan · Local MCP Server for Code Risk Review
 
-**Compliance intelligence for your coding assistant.**
+**Evidence-based static analysis for AI coding assistants, with a local CLI and Model Context Protocol (MCP) server.**
 
 Juriscan is a local, deterministic MCP server and CLI that finds selected risky code patterns, explains the evidence, and creates bounded remediation plans. Your existing coding assistant can use the results. Juriscan uses no LLM, API key, hosted inference, telemetry, or project-code upload.
 
